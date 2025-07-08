@@ -1,0 +1,18 @@
+# all the python git ignore filee
+
+__pycache__/
+*.pyc
+
+
+.env
+
+.DS_Store
+
+.ipynb_checkpoints/
+
+.vscode/
+
+.env.local
+
+__pycache__/
+
