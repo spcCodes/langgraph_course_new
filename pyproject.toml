@@ -25,6 +25,7 @@ seaborn = "^0.13.2"
 matplotlib = "^3.10.0"
 mypy = "^1.15.0"
 pyright = "^1.1.394"
+langchain-perplexity = "^0.1.1"
 
 
 [tool.poetry.group.dev.dependencies]

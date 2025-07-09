@@ -2103,6 +2103,21 @@ openai = ">=1.58.1,<2.0.0"
 tiktoken = ">=0.7,<1"
 
 [[package]]
+name = "langchain-perplexity"
+version = "0.1.1"
+description = "An integration package connecting Perplexity and LangChain"
+optional = false
+python-versions = "<4.0,>=3.9"
+files = [
+    {file = "langchain_perplexity-0.1.1-py3-none-any.whl", hash = "sha256:e2d61b797a37f2709039ae5a05bf12eca72372f83b5aa3916e995aac92c011f1"},
+    {file = "langchain_perplexity-0.1.1.tar.gz", hash = "sha256:eb802b6c8db45e6add7562a91550cde225e4dfb0f74880a67884f64ef81e533d"},
+]
+
+[package.dependencies]
+langchain-core = ">=0.3.52,<1.0.0"
+openai = ">=1.68.2,<2.0.0"
+
+[[package]]
 name = "langchain-text-splitters"
 version = "0.3.8"
 description = "LangChain text splitting utilities"
@@ -5562,4 +5577,4 @@ cffi = ["cffi (>=1.11)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "b843b4c5dfad72aa3f83c375309b0a6591334659c2d4cbe9cd792a0cefa5bd18"
+content-hash = "004421cf89aec3a20f5fc9b723fb30cd86ab2caac6ded9a71d3166a5daa4900c"

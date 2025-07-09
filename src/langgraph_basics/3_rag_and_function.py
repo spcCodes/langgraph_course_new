@@ -4,6 +4,7 @@ from langchain_core.runnables import RunnablePassthrough,RunnableParallel
 from rag_ingestion import retriever
 from langchain_openai import ChatOpenAI
 from langgraph.graph import Graph
+from utils import stream_output
 
 model = ChatOpenAI(model="gpt-4.1-mini", temperature=0)
 
@@ -52,7 +53,8 @@ if __name__ == "__main__":
     }
 
     response = app.invoke(input)
-    print(response)
+    print(stream_output(app, input))
+    # print(response)
 
 
 
